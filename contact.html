@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!-<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="img\jwfavicon.png" />
+    <title>Contact form</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css\style.production.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <img
+        src="img\jwlogolarge.png"
+        alt="personal logo of Josh Wasson, a text logo of uppercase letters that consists of my name"
+        class="page-header__item page-header__logo"
+      />
+      <nav class="main-navigation page-header__item">
+        <ul role="menubar" class="navigation-list">
+          <li>
+            <a href="index.html" role="menuitem" class="navigation-list__item"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a href="work.html" role="menuitem" class="navigation-list__item">
+              My Work</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="about.html" role="menuitem" class="navigation-list__item"
+              >About</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+    <div class="contact-container">
+        <form action="" method="post">
+            <label class="standard-label" for="contact-email">Email: </label>
+            <input type="email" id="contact-email" required />
+            <label class="standard-label" for="telephone">Telephone: </label>
+            <input
+                type="tel"
+                id="telephone"
+                required
+                pattern="\d{3}[\-]\d{3}[\-]\d{4}"
+            />
+      <label for="message">Message: </label>
+      <textarea id="message" maxlength="240" required></textarea>
+      <input type="submit" value="Send message" />
+    </div>
+    </form>
+    <script src="" async defer></script>
+    <div>
+      Josh Wasson
+      <br />
+      3887 Tower Road
+      <br />
+      Maiden, NC, 28650
+      <br />
+      Tel
+      <a class="contact_me" href="tel:6055300277" aria-hidden="true"
+        >(605) 530-0277</a
+      >
+      <br />
+      <a class="contact_me" href="mailto:Joshwasson92@gmail.com"
+        >Joshwasson92@gmail.com</a
+      >
+      <a class="contact_me" href="mailto:Joshwasson92@gmail.com">Contact Me</a>
+    </div>
+    <footer class="page-footer">
+        <p class="find_me_text">Find me on</p>
+        <div class="social_media">
+          <a href="https://github.com/Joshwasson92" />
+            <img src="img\211904_social_github_icon.svg" alt="Github" />
+          </a>
+          <a href="https://twitter.com/joshwasson3">
+            <img src="img\104461_twitter_icon.svg" alt="Twitter" />
+          </a>
+          <a href="https://www.linkedin.com/in/josh-wasson-94aa11222/">
+            <img src="img\104452_linkedin_icon.svg" alt="LinkedIn" />
+          </a>
+        </div>
+      </footer>
+      <script src="js\tota11y.min.js"></script>
+  </body>
+</html>
