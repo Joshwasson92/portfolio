@@ -14,17 +14,17 @@
     --secondary-color: #D3D3D3;
     --dark-grey: #2b2b2b;
     --font-color: #FFFFFF;
-    --anchor-purple: #8d4ae6;
-    --anchor-visited: #7b9eff;
+    --anchor-purple: #7b9eff; 
+    --anchor-visited: #9c2ca7;
     --anchor-active: #489c79;
     --button-bg-color: #002a9c;
-    --button-border-color: 3085CA;
-    --contact-blue: #7b9eff;
+    --button-border-color: #3085CA;
+    --contact-blue: #2e63f7;
     --black-font: #000;
     --sun-0: #edc655;
     --sun-50: #fcffad;
     --sun-100: #f76414;
-    --padding-10: padding: 10px;
+    --a-contrast-color: ##2e1670;
   }
   html,
   body,
@@ -167,12 +167,12 @@
     font-weight: inherit;
   }
   a {
-    color: var(--anchor-purple);
+    color: var(--contact-blue);
     text-decoration: none;
   }
   a:visited {
     /* visited link */
-    color: var(--anchor-visited);
+    color: var(--anchor-purple);
   }
   a:hover,
   :focus {
@@ -181,7 +181,7 @@
   }
   a:active {
     /* selected link */
-    color: var(--anchor-active);
+    color: var(--contact-blue);
   }
   button,
   .button {
@@ -380,7 +380,7 @@
     .enjoy__list {
       display: inline-block;
       margin: 0;
-      padding: var(--padding-10);
+      padding: 10px;
       /* For IE, the outcast */
       zoom:1;
       *display: inline;
@@ -481,5 +481,51 @@
     -webkit-animation: 34s cloud-move-reverse infinite alternate linear;
             animation: 34s cloud-move-reverse infinite alternate linear;
   }
-  
-  
+  .flex-outer li,
+.flex-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.flex-outer > li > label,
+.flex-outer li p {
+  flex: 1 0 120px;
+  max-width: 220px;
+}
+.flex-outer > li > label + *,
+.flex-inner {
+  flex: 1 0 220px;
+}
+.flex-outer li button {
+  margin-left: auto;
+  padding: 8px 16px;
+  border: none;
+  background: var(--contact-blue);
+  color: var(--font-color);
+  text-transform: uppercase;
+  letter-spacing: .09em;
+  border-radius: 2px;
+}
+.flex-inner li {
+  width: 100px;
+}
+.flex-inner {
+  justify-content: space-between;
+}
+.contact-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: center;
+    position: relative;
+        max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: content-box;
+}
