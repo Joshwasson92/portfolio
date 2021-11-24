@@ -19,7 +19,7 @@
   --anchor-active: #489c79;
   --button-bg-color: #002a9c;
   --button-border-color: #3085CA;
-  --contact-blue: #2258ee;
+  --contact-blue: #778cff;
   --black-font: #000;
   --sun-0: #edc655;
   --sun-50: #fcffad;
@@ -201,7 +201,6 @@ button:focus,
   cursor: pointer;
   opacity: 0.5;
 }
-
 .contact_me {
   color: var(--contact-blue);
 }
@@ -528,4 +527,12 @@ justify-content: space-between;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: content-box;
+}
+a.home__button {
+  color: white;
+  text-decoration: none;
+}
+a.home__button:hover {
+  text-decoration:none; 
+  cursor:pointer;  
 }
