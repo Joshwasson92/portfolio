@@ -14,10 +14,10 @@
     --secondary-color: #D3D3D3;
     --dark-grey: #2b2b2b;
     --font-color: #FFFFFF;
-    --anchor-purple: #7b9eff; 
-    --anchor-visited: #9c2ca7;
+    --anchor-blue: #B8C7FF;
+    --anchor-visited: #B8C7FF;
     --anchor-active: #489c79;
-    --button-bg-color: #002a9c;
+    --button-bg-color: #1032ad;
     --button-border-color: #3085CA;
     --contact-blue: #2e63f7;
     --black-font: #000;
@@ -25,6 +25,7 @@
     --sun-50: #fcffad;
     --sun-100: #f76414;
     --a-contrast-color: ##2e1670;
+    --gh-contrast-blue: #2e63f7;
   }
   html,
   body,
@@ -167,12 +168,12 @@
     font-weight: inherit;
   }
   a {
-    color: var(--contact-blue);
+    color: var(--anchor-blue);
     text-decoration: none;
   }
   a:visited {
     /* visited link */
-    color: var(--anchor-purple);
+    color: var(--anchor-blue);
   }
   a:hover,
   :focus {
@@ -181,7 +182,7 @@
   }
   a:active {
     /* selected link */
-    color: var(--contact-blue);
+    color: var(--anchor-blue);
   }
   button,
   .button {
