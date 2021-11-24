@@ -10,270 +10,14 @@
 */
 /*CSS variables */
 :root {
-<<<<<<< Updated upstream
-    --primary-color: #253033;
-    --secondary-color: #D3D3D3;
-    --dark-grey: #2b2b2b;
-    --font-color: #FFFFFF;
-    --anchor-purple: #8d4ae6;
-    --anchor-visited: #7b9eff;
-    --anchor-active: #489c79;
-    --button-bg-color: #002a9c;
-    --button-border-color: 3085CA;
-    --contact-blue: #7b9eff;
-    --black-font: #000;
-    --sun-0: #edc655;
-    --sun-50: #fcffad;
-    --sun-100: #f76414;
-    --padding-10: padding: 10px;
-  }
-  html,
-  body,
-  div,
-  span,
-  applet,
-  object,
-  iframe,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p,
-  blockquote,
-  pre,
-  a,
-  abbr,
-  acronym,
-  address,
-  big,
-  cite,
-  code,
-  del,
-  dfn,
-  em,
-  img,
-  ins,
-  kbd,
-  q,
-  s,
-  samp,
-  small,
-  strike,
-  strong,
-  sub,
-  sup,
-  tt,
-  var,
-  b,
-  u,
-  i,
-  center,
-  dl,
-  dt,
-  dd,
-  ol,
-  ul,
-  li,
-  fieldset,
-  form,
-  label,
-  legend,
-  table,
-  caption,
-  tbody,
-  tfoot,
-  thead,
-  tr,
-  th,
-  td,
-  article,
-  aside,
-  canvas,
-  details,
-  embed,
-  figure,
-  figcaption,
-  footer,
-  header,
-  hgroup,
-  menu,
-  nav,
-  output,
-  ruby,
-  section,
-  summary,
-  time,
-  mark,
-  audio,
-  video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-  }
-  /* HTML5 display-role reset for older browsers */
-  article,
-  aside,
-  details,
-  figcaption,
-  figure,
-  footer,
-  header,
-  hgroup,
-  menu,
-  nav,
-  section {
-    display: block;
-  }
-  body {
-    line-height: 1;
-  }
-  ol,
-  ul {
-    list-style: none;
-  }
-  blockquote,
-  q {
-    quotes: none;
-  }
-  blockquote:before,
-  blockquote:after,
-  q:before,
-  q:after {
-    content: "";
-    content: none;
-  }
-  table {
-    border-collapse: collapse;
-    border-spacing: 0;
-  }
-  footer > a {
-    text-decoration: none;
-  }
-  body {
-    background-color: var(--primary-color);
-    font-style: "Nanum Gothic", sans-serif;
-    color: var(--font-color);
-    font-weight: bold;
-    font-size: 16px;
-  }
-  header {
-    background-color: inherit;
-    color: inherit;
-    font-style: inherit;
-    font-weight: inherit;
-  }
-  a {
-    color: var(--anchor-purple);
-    text-decoration: none;
-  }
-  a:visited {
-    /* visited link */
-    color: var(--anchor-visited);
-  }
-  a:hover,
-  :focus {
-    -webkit-text-decoration-style: wavy;
-            text-decoration-style: wavy;
-  }
-  a:active {
-    /* selected link */
-    color: var(--anchor-active);
-  }
-  button,
-  .button {
-    border: 10px;
-    font-family: inherit;
-    background-color: var(--button-bg-color);
-    color: var(--font-color);
-    text-decoration: none;
-    padding: 2px;
-    border-radius: 3px;
-    border-bottom: 2px solid var(--button-border-color);
-  }
-  button:hover,
-  button:focus,
-  .button:hover,
-  .button:focus {
-    cursor: pointer;
-    opacity: 0.5;
-  }
-  
-  .contact_me {
-    color: var(--contact-blue);
-  }
-  .profile__portrait {
-    float: left;
-    width: 250px;
-    margin: 40px;
-    border-radius: 20%;
-  }
-  .page-footer {
-    clear: both;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    text-align: center;
-  }
-  .profile {
-    max-width: 700px;
-    margin: 0 auto;
-    text-align: center;
-  }
-  * {
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-  }
-  .social_media {
-    clear: both;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    text-align: center;
-  }
-  .page-header {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-    padding: 5px;
-  }
-  .page-header__item {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 1 100px;
-            flex: 0 1 100px;
-    width: 100px;
-  }
-  .page-header__item:last-child {
-    -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
-    text-align: right;
-  }
-  .navigation-list {
-    list-style-type: none;
-  }
-  .navigation-list li {
-    display: inline-block;
-    margin-left: 15px;
-  }
-=======
   --primary-color: #253033;
   --secondary-color: #D3D3D3;
   --dark-grey: #2b2b2b;
   --font-color: #FFFFFF;
-  --anchor-blue: #B8C7FF;
-  --anchor-visited: #B8C7FF;
+  --anchor-purple: #7b9eff; 
+  --anchor-visited: #9c2ca7;
   --anchor-active: #489c79;
-  --button-bg-color: #1032ad;
+  --button-bg-color: #002a9c;
   --button-border-color: #3085CA;
   --contact-blue: #2e63f7;
   --black-font: #000;
@@ -281,7 +25,6 @@
   --sun-50: #fcffad;
   --sun-100: #f76414;
   --a-contrast-color: ##2e1670;
-  --gh-contrast-blue: #2e63f7;
 }
 html,
 body,
@@ -424,12 +167,12 @@ header {
   font-weight: inherit;
 }
 a {
-  color: var(--anchor-blue);
+  color: var(--contact-blue);
   text-decoration: none;
 }
 a:visited {
   /* visited link */
-  color: var(--anchor-blue);
+  color: var(--anchor-purple);
 }
 a:hover,
 :focus {
@@ -438,7 +181,7 @@ a:hover,
 }
 a:active {
   /* selected link */
-  color: var(--anchor-blue);
+  color: var(--contact-blue);
 }
 button,
 .button {
@@ -552,7 +295,6 @@ button:focus,
 }
 /* end grid fallback */
 @supports (display: grid) {
->>>>>>> Stashed changes
   .grid {
     display: -ms-grid;
     display: grid;
@@ -680,43 +422,8 @@ h2 {
   0% {
     fill: var(--sun-0);
   }
-<<<<<<< Updated upstream
-  .enjoy__container {
-    text-align:center;
-    }
-    .enjoy__list {
-      display: inline-block;
-      margin: 0;
-      padding: var(--padding-10);
-      /* For IE, the outcast */
-      zoom:1;
-      *display: inline;
-    }
-    .enjoy__li {
-      float: left;
-            padding: 2px 5px;
-            border: 1px solid var(--font-color);
-    }
-  .button, button {
-    border: none;
-    display: inline-block;
-    font-family: inherit;
-    background-color: var(--button-bg-color);
-    color: var(--font-color);
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 3px;
-    border-bottom: 2px solid var(--black-font);
-    -webkit-transition-duration: 0.2s;
-            transition-duration: 0.2s;
-    -webkit-transition-property: opacity;
-    transition-property: opacity;
-    margin-left: auto;
-    margin-right: auto;
-=======
   50% {
     fill: var(--sun-50);
->>>>>>> Stashed changes
   }
   100% {
     fill: var(--sun-100);
@@ -769,10 +476,6 @@ h2 {
     -webkit-transform: translate(100px, 48px);
             transform: translate(100px, 48px);
   }
-<<<<<<< Updated upstream
-  
-  
-=======
 }
 .cloud-back {
   -webkit-animation: 34s cloud-move-reverse infinite alternate linear;
@@ -826,4 +529,3 @@ justify-content: space-between;
   padding: 0 20px;
   box-sizing: content-box;
 }
->>>>>>> Stashed changes
